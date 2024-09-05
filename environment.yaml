@@ -1,0 +1,19 @@
+name: myenv
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - netCDF4
+  - xarray
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+      - xbatcher
+      - python-geohash
+      - Geohash
